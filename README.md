@@ -8,13 +8,13 @@
     - Video Resource Page
     - App Resource Page
 
-# Screenshots
+<!-- # Screenshots
 ![](images/kaylamatthews/Desktop/digitalCrafts/week5/day1/Home.png)
 ![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/FindBooks.png)
 ![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/BooksLevel.png)
 ![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/Videos.png)
 ![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/Apps.png)
-
+ -->
 # Key Features
 - Home Page: The home page explains what you can expect to find on each page of the website. It also includes a link to these pages.
 - Book Finder Search Page: This page uses the Google Books API to allow users to search for books. Once the user types their input and selects the search button the API will display books matching that search title but also related to kindergarten. This is due to the phrase kindergarten being accesed in the API url in the javascript code. Users will also find leveled readers on this page that on click will take them directly to the amazon page to purchase.
