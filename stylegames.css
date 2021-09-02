@@ -1,0 +1,605 @@
+
+.container-fluid{
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+  
+      
+
+}
+nav {
+    border-bottom: black solid 5px;
+    
+    
+}
+.game-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 30px;
+    gap: 10px;
+    font-family: 'Itim', cursive;
+    
+}
+.game-links img{
+    width:300px;
+    height: 300px;
+}
+.game-links p{
+    font-size: 30px;
+}
+button {
+    height: 50px;
+    width: 220px;
+    border-radius: 30px;
+    margin: 20px;
+    background-color: #FBF608;
+    border: none;
+    font-size: 30px;
+    color: #0B1320;
+}
+
+.opening {
+    background-image: url("https://images.unsplash.com/photo-1526430752879-b9eb53fbd772?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+    margin-bottom: 50px;
+    color: white;
+    
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.opening h1{
+    font-size: 100px;
+    color: black;
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    text-shadow: 10px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+.dreambox{
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    
+    perspective: 1000px;
+    border-radius: 20px;
+}
+.dreambox-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.dreambox:hover .dreambox-inner{
+    transform: rotateY(180deg)
+}
+.dreambox-front, .dreambox-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+.dreambox-back{
+    background-color: #01DEE6;
+    color:#0B1320;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+.khanAcademy{
+    background-color: transparent;
+   width: 400px;
+   height: 300px;
+   perspective: 1000px;
+   border-radius: 20px;
+}
+.khanAcademy-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.khanAcademy:hover .khanAcademy-inner{
+    transform: rotateY(180deg)
+}
+.khanAcademy-front, .khanAcademy-back{
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+}
+
+.khanAcademy-back{
+     background-color: #01DEE6;
+  color: #0B1320;
+  transform: rotateY(180deg);
+  border-radius: 30px;
+}
+
+
+.starfall{
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 20px;
+}
+.starfall-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.starfall:hover .starfall-inner{
+    transform: rotateY(180deg)
+}
+.starfall-front, .starfall-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+.starfall-back{
+    background-color: #01DEE6;
+    color: #0B1320;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+
+
+
+
+.abcMouse{
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 20px;
+}
+.abcMouse-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.abcMouse:hover .abcMouse-inner{
+    transform: rotateY(180deg)
+}
+.abcMouse-front, .abcMouse-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+.abcMouse-back{
+    background-color:#01DEE6;
+    color: #0B1320;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+.readingEggs{
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    
+    perspective: 1000px;
+    border-radius: 20px;
+}
+.readingEggs-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.readingEggs:hover .readingEggs-inner{
+    transform: rotateY(180deg)
+}
+.readingEggs-front, .readingEggs-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+.readingEggs-back{
+    background-color: #01DEE6;
+    color: #0B1320;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.Istation{
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 20px;
+}
+.Istation-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.Istation:hover .Istation-inner{
+    transform: rotateY(180deg)
+}
+.Istation-front, .Istation-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+.Istation-back{
+    background-color: #01DEE6;
+    color: #0B1320;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+.Iready{
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 20px;
+}
+.Iready-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.Iready:hover .Iready-inner{
+    transform: rotateY(180deg)
+}
+.Iready-front, .Iready-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+.Iready-back{
+    background-color: #01DEE6;
+    color: #0B1320;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ABCYa{
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 20px;
+}
+.ABCYa-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.ABCYa:hover .ABCYa-inner{
+    transform: rotateY(180deg)
+}
+.ABCYa-front, .ABCYa-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+.ABCYa-back{
+    background-color: #01DEE6;
+    color: #0B1320;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1600px) {
+    .game-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .opening h1{
+        font-size: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    .game-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 100px;
+    }
+    .opening h1{
+        font-size: 100px;
+    }
+}
+@media screen and (max-width: 768px){
+    .game-links{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 200px;
+        
+    }
+    .opening h1{
+        font-size: 100px;
+        
+    }
+    .nav{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .game-links{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 90px;
+        
+    }
+    .opening h1{
+        font-size: 60px;
+        
+    }
+    .nav{
+        font-size: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 420px) {
+    .game-links{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 30px;
+        
+    }
+    .game-links p{
+        font-size: 20px;
+    }
+    button{
+        width: 250px;
+        font-size: 20px;
+    }
+    .game-links img{
+        height: 200px;
+        width: 200px;
+
+    }
+    .opening h1{
+        font-size: 45px;
+        text-shadow: 5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    
+    }
+    .nav{
+        font-size: 15px;
+    }
+    .dreambox{
+        width: 350px;
+        height: 260px;
+    }
+    .khanAcademy{
+        width: 350px;
+        height: 260px;
+    }
+    .starfall{
+        width: 350px;
+        height: 260px;
+    }
+    .abcMouse{
+        width: 350px;
+        height: 260px;
+    }
+    .readingEggs{
+        width: 350px;
+        height: 260px;
+    }
+    .Istation{
+        width: 350px;
+        height: 260px;
+    }
+    .Iready{
+        width: 350px;
+        height: 260px;
+    }
+    .ABCYa{
+        width: 350px;
+        height: 260px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .game-links{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        
+    }
+    .game-links p{
+        font-size: 20px;
+    }
+    button{
+        font-size: 25px;
+    }
+    
+    .opening h1{
+        font-size: 45px;
+        
+    }
+    .nav{
+        font-size: 13px;
+    }
+    .dreambox{
+        width: 300px;
+        height: 240px;
+    }
+    .khanAcademy{
+        width: 300px;
+        height: 240px;
+    }
+    .starfall{
+        width: 300px;
+        height: 240px;
+    }
+    .abcMouse{
+        width: 300px;
+        height: 240px;
+    }
+    .readingEggs{
+        width: 300px;
+        height: 240px;
+    }
+    .Istation{
+        width: 300px;
+        height: 240px;
+    }
+    .Iready{
+        width: 300px;
+        height: 240px;
+    }
+    .ABCYa{
+        width: 300px;
+        height: 240px;
+    }
+    
+}
+
+@media screen and (max-width: 290px) {
+    .game-links{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 16px;
+        
+        
+    }
+    .game-links p{
+        font-size: 20px;
+    }
+    button{
+        font-size: 25px;
+        width: 200px;
+    }
+    
+    .opening h1{
+        font-size: 30px;
+        
+    }
+    .nav{
+        font-size: 13px;
+    }
+    .dreambox{
+        width: 250px;
+        height: 300px;
+    }
+    .khanAcademy{
+        width: 250px;
+        height: 300px;
+    }
+    .starfall{
+        width: 250px;
+        height: 300px;
+    }
+    .abcMouse{
+        width: 250px;
+        height: 300px;
+    }
+    .readingEggs{
+        width: 250px;
+        height: 300px;
+    }
+    .Istation{
+        width: 250px;
+        height: 300px;
+    }
+    .Iready{
+        width: 250px;
+        height: 300px;
+    }
+    .ABCYa{
+        width: 250px;
+        height: 300px;
+    }
+    
+}
