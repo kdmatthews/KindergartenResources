@@ -9,7 +9,7 @@
     - App Resource Page
 
 # Screenshots
-![](kaylamatthews/Desktop/digitalCrafts/week5/day1/images/Home.png)
+![](images/kaylamatthews/Desktop/digitalCrafts/week5/day1/Home.png)
 ![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/FindBooks.png)
 ![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/BooksLevel.png)
 ![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/Videos.png)
