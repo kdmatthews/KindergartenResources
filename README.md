@@ -32,3 +32,5 @@
 - Ways to incorporate CSS Bootstrap, Grid, and Flex into the same project.
 - Better strategize for proper styling of a website.
 - How to flip images using CSS.
+
+Medium Article: https://medium.com/@kdmatthews77/kindergarten-resources-a-website-for-parents-and-teachers-7d6f181214f6
