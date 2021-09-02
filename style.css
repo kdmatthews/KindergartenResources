@@ -1,5 +1,6 @@
 
 
+
 /* index.html */
 
 .container-fluid{
@@ -371,7 +372,7 @@ img:hover{
         grid-template-columns: 1fr;
         }
         .input{
-            width: 290px;
+            width: 280px;
         }
         .search-button{
             height: 35px;
@@ -393,12 +394,12 @@ img:hover{
 }
 @media screen and (max-width: 380px){
     .input{
-        width: 290px;
+        width: 240px;
     }
     .search-button{
         height: 35px;
-        font-size: 17px;
-        width: 60px;
+        font-size: 15px;
+        width: 55px;
     }
     .title-books h1{
         font-size: 70px;
