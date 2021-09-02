@@ -1,4 +1,5 @@
 
+
 /* index.html */
 
 .container-fluid{
@@ -200,9 +201,6 @@ nav {
 
 .book-searches{
     text-align: center;
-   
-    height: 300px;
-    
     font-family: 'Itim', cursive;
     
 }
@@ -211,7 +209,7 @@ nav {
 .book-searches h2{
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 60px;
+    font-size: 90px;
     padding-top: 50px;
     color: black;
     font-family: 'Itim', cursive;
@@ -220,15 +218,26 @@ nav {
 
 .input{
     border: 3px solid #FF66E9;
-    height: 50px;
-    width: 500px;
+    font-size: 40px;
+    width: 900px;
     border-radius: 50px;
-    padding: 5px;
+    padding: 25px;
     font-family: 'Itim', cursive;
+    
 
 }
 
-
+.search-button{
+    width: 200px;
+    border-radius: 30px;
+    background-color: #01DEE6;
+    color: grey;
+    font-size: 60px;
+    border: none;
+    font-family: 'Itim', cursive;
+    
+    
+}
 
 .main{
     width: 100%;
@@ -266,19 +275,9 @@ nav {
     text-shadow: 10px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
    
 }
-.book-searches{
- 
-    
-    font-family: 'Itim', cursive;
-}
-.search-button{
-    width: 100px;
-    border-radius: 7px;
-    background-color: #01DEE6;
-    color: grey;
-    font-size: 30px;
-    border: none;
-    font-family: 'Itim', cursive;
+
+.background{
+    background-color: #444444;
 }
 
 .leveled-books img{
@@ -336,11 +335,34 @@ img:hover{
         display: grid;
         grid-template-columns: 1fr 1fr;
         }
+    .input{
+        font-size: 20px;
+        width: 550px;
+    }
+    .search-button{
+        font-size: 30px;
+        width: 110px;
+    }
+    .book-searches h2{
+        font-size: 50px;
+    }
 }
 @media screen and (max-width: 659px){
     .main{
         display: grid;
         grid-template-columns: 1fr;
+        }
+        .input{
+            font-size: 20px;
+            width: 400px;
+            height: 40px;
+        }
+        .search-button{
+            font-size: 25px;
+            width: 110px;
+        }
+        .book-searches h2{
+            font-size: 50px;
         }
 }
 @media screen and (max-width: 415px){
@@ -433,7 +455,7 @@ img:hover{
 .movie {
     height: 1200px;
     width: 80%;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 .videos{
     margin-bottom: 50px;
@@ -485,9 +507,7 @@ img:hover{
     font-family: 'Cabin Sketch', cursive;
     
 }
-.background{
-    background-color: #444444;
-}
+
 html{
     background-color: #444444;
 }
