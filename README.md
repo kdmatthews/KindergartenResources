@@ -9,11 +9,11 @@
     - App Resource Page
 
 # Screenshots
-![](images/Home.png)
-![](images/FindBooks.png)
-![](images/BooksLevel.png)
-![](images/Videos.png)
-![](images/Apps.png)
+![](/Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/Home.png)
+![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/FindBooks.png)
+![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/BooksLevel.png)
+![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/Videos.png)
+![](Users/kaylamatthews/Desktop/digitalCrafts/week5/day1/images/Apps.png)
 
 # Key Features
 - Home Page: The home page explains what you can expect to find on each page of the website. It also includes a link to these pages.
